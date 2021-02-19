@@ -9,4 +9,7 @@ Our goal is to integrate, test and play with:
 - ml5
 - PWA (so it works well on mobile browsers)
 
-Get informed of our updates by [subscribing to our newsletter](https://tinyletter.com/creative-code/)
+## Get informed
+
+- [Subscribe to our newsletter](https://tinyletter.com/creative-code/) for updates
+- [Join our telegram group](https://t.me/joinchat/IZcW2U4HflaCQj1G) for questions, troubleshooting, etc
