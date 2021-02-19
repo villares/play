@@ -1,51 +1,12 @@
-# theme.toml template for a Hugo theme
-# See https://github.com/gohugoio/hugoThemes#themetoml for an example
-
-name = "PaperMod"
-license = "MIT"
-licenselink = "https://github.com/adityatelange/hugo-PaperMod/blob/master/LICENSE"
-description = "A fast, clean, responsive Hugo theme"
-homepage = "https://adityatelange.github.io/hugo-PaperMod/"
-tags = [
-  "responsive",
-  "simple",
-  "clean",
-  "light",
-  "dark",
-  "blog",
-  "minimalist",
-  "highlight.js",
-  "search"
-]
-features = [
-  "responsive",
-  "single-column",
-  "blog",
-  "cover-image",
-  "table-of-contents",
-  "opengraph",
-  "highlight.js",
-  "favicon",
-  "archive",
-  "share-icons",
-  "cover",
-  "multilingual",
-  "social-icons",
-  "minified-assets",
-  "theme-toggle",
-  "menu-location-indicator",
-  "scroll-to-top",
-  "search"
-]
-min_version = "0.74.0"
+name = "Introduction"
+license = "Apache-2.0"
+licenselink = "https://github.com/victoriadrake/hugo-theme-introduction/blob/master/LICENSE"
+description = "Minimal, single page, smooth scrolling theme for Hugo."
+homepage = "https://github.com/victoriadrake/hugo-theme-introduction"
+tags = ["blog", "bulma", "clean", "dark", "disqus", "font awesome", "gallery", "minimal", "minimalist", "mobile", "multilingual", "one page", "personal", "responsive", "simple", "single page", "starter", "syntax highlighting", "projects", "white" ]
+features = ["responsive", "blog", "portfolio", "gallery"]
+min_version = "0.49"
 
 [author]
-  name = "Aditya Telange"
-  homepage = "https://github.com/adityatelange/"
-
-# If porting an existing theme
-[original]
-  name = "Paper"
-  author = "nanxiaobei"
-  homepage = "https://github.com/nanxiaobei"
-  repo = "https://github.com/nanxiaobei/hugo-paper/"
+  name = "Victoria Drake"
+  homepage = "https://victoria.dev"
