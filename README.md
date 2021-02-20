@@ -9,14 +9,23 @@ Our goal is to integrate, test and play with:
 - ml5
 - PWA (so it works well on mobile browsers)
 
-# Install as a submodule
+## Installation
 
+1. [Install hugo](https://gohugo.io/getting-started/installing/)
+1. Create a hugo site
+1. Install `creative-code` as a theme submodule
+	1. Go to `themes/` folder
+	1. Run `git submodule add https://github.com/nonlinear/creative-code.git creative-code`
+	1. open `config.toml` and change `theme` to `"creative-code"`
 
-1. Go to `themes/` folder
-1. Run `git submodule add https://github.com/nonlinear/creative-code.git creative-code`
-1. open `config.toml` and change `theme` to `"creative-code"`
+## Updating
 
-## Troubleshoot: submodule + githubpages
+1. go to your hugo project folder
+1. go to the theme with `cd themes/creative-code`
+1. `git pull`
+1. [Subscribe to our newsletter](https://tinyletter.com/creative-code/) for updates
+
+<!-- ## Troubleshoot: submodule + githubpages
 
 Github generates flat blogs server-side, so submodule breaks because it renames folder with commit. flat blogs are meant to be client-side, so there's a way to prevent github from rebuilding it server-side:
 
@@ -27,9 +36,9 @@ Github generates flat blogs server-side, so submodule breaks because it renames 
 ## 
 
 1. build hugo with `hugo`
-1. push changes
+1. push changes -->
 
-## Get informed
+<!-- ## Get informed
 
 - [Subscribe to our newsletter](https://tinyletter.com/creative-code/) for updates
-- [Join our telegram group](https://t.me/joinchat/IZcW2U4HflaCQj1G) for questions, troubleshooting, etc
+- [Join our telegram group](https://t.me/joinchat/IZcW2U4HflaCQj1G) for questions, troubleshooting, etc -->
