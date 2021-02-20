@@ -1,21 +1,34 @@
-{{ define "main" }}
-    <div class="container markdown top-pad">
-        {{ .Content }}
-    </div>
-    <div class="container">
-        <ul>
-            {{ range .Pages.ByPublishDate.Reverse }}
-            {{ if .Date }}
-            <li>
-                <a href="{{ .Permalink }}">{{ .Date.Format (.Site.Params.dateFormat | default "Jan 02, 2006") }} | {{ .Title | markdownify }}</a>
-            </li>
-            {{ else }}
-            <li>
-                <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
-            </li>
-            {{ end }}
-            {{ end }}
-        </ul>
-    </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{ .Site.Title }}</title>
+</head>
+<body>
+<div class="container">
+		<h1>{{ .Title }}</h1>
+<div class="grid">
+	<div class="column">
+		<h2>Books</h2>
+		<ul>
+	
+	{{ range where .Site.Pages "Params.category" "books" }}
+		<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+		{{ end }}
+</ul>
+	</div>
+	<div class="column">
+		<h2>Play</h2>
+		<ul>
+	
+	{{ range where .Site.Pages "Params.category" "play" }}
+		<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+		{{ end }}
+</ul>
+	</div>
+	<div class="column"></div>
+</div>
+</div>
 </body>
-{{ end }}
+</html>
