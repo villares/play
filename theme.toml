@@ -1,8 +1,8 @@
-name = "creative-code"
+name = "play"
 license = "Apache-2.0"
 licenselink = "https://github.com/nonlinear/creative-code/blob/main/LICENSE"
 description = "An environment for stand-alone creative code experiments, reducing the learning curve so you can enjoy being in the zone faster."
-homepage = "https://github.com/nonlinear/creative-code#creative-code"
+homepage = "https://github.com/nonlinear/play#play"
 tags = [
 "creative code", 
 "ML5", 

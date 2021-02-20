@@ -1,4 +1,4 @@
-# creative-code
+# play
 
 A [hugo](https://gohugo.io/) theme environment for  stand-alone creative code experiments, reducing the learning curve so you can enjoy being in the zone faster.
 
@@ -13,17 +13,17 @@ Our goal is to integrate, test and play with:
 
 1. [Install hugo](https://gohugo.io/getting-started/installing/)
 1. Create a hugo site
-1. Install `creative-code` as a theme submodule
+1. Install `play` as a theme submodule
 	1. Go to `themes/` folder
-	1. Run `git submodule add https://github.com/nonlinear/creative-code.git creative-code`
-	1. open `config.toml` and change `theme` to `"creative-code"`
+	1. Run `git submodule add https://github.com/nonlinear/play.git play`
+	1. open `config.toml` and change `theme` to `"play"`
 
 ## Updating
 
 1. go to your hugo project folder
-1. go to the theme with `cd themes/creative-code`
+1. go to the theme with `cd themes/play`
 1. `git pull`
-1. [Subscribe to our newsletter](https://tinyletter.com/creative-code/) for updates
+1. [Subscribe to our newsletter](https://tinyletter.com/nonlinear-play/) for updates
 
 <!-- ## Troubleshoot: submodule + githubpages
 
@@ -40,5 +40,5 @@ Github generates flat blogs server-side, so submodule breaks because it renames 
 
 <!-- ## Get informed
 
-- [Subscribe to our newsletter](https://tinyletter.com/creative-code/) for updates
+- [Subscribe to our newsletter](https://tinyletter.com/play/) for updates
 - [Join our telegram group](https://t.me/joinchat/IZcW2U4HflaCQj1G) for questions, troubleshooting, etc -->
