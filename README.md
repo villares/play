@@ -1,6 +1,6 @@
 # nonlinear play
 
-A [hugo](https://gohugo.io/) theme environment for  stand-alone creative code experiments, reducing the learning curve so you can enjoy being in the zone faster.
+A [hugo](https://gohugo.io/) theme environment for  stand-alone creative code experiments, reducing the learning curve so you can enjoy being in the zone.
 
 Our goal is to integrate, test and play with:
 
