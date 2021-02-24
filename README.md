@@ -18,6 +18,15 @@ Our goal is to integrate, test and play with:
 	1. Run `git submodule add https://github.com/nonlinear/play.git play`
 	1. open `config.toml` and change `theme` to `"play"`
 
+
+## Activation
+
+`nonlinear play` works best as a stand-alone, on top of your existing hugo project. It's best to activate it per page, adding to frontmatter:
+
+```
+layout: play
+```
+
 ## Updating
 
 1. go to your hugo project folder
