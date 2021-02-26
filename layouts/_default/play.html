@@ -47,12 +47,24 @@ ml5.min.js
 modernizr.js
  -->
 
-
+ 	{{ if in .Params.features "jquery" }}
  {{ $jquery := resources.Get "js/jquery.min.js" }}
 <script src="{{ $jquery.Permalink }}"></script>
-
+{{ end }}
+{{ if in .Params.features "modernizr" }}
  {{ $modernizr := resources.Get "js/modernizr.js" }}
-<script src="{{ $modernizr.Permalink }}"></script>
+ <script src="{{ $modernizr.Permalink }}"></script>
+ {{ $detectizr := resources.Get "js/detectizr.js" }}
+ <script src="{{ $detectizr.Permalink }}"></script>
+ {{ end }}
+  	{{ if in .Params.features "p5" }}
+ {{ $p5 := resources.Get "js/p5.min.js" }}
+<script src="{{ $p5.Permalink }}"></script>
+{{ end }}
+  	{{ if in .Params.features "ml5" }}
+ {{ $ml5 := resources.Get "js/ml5.min.js" }}
+<script src="{{ $ml5.Permalink }}"></script>
+{{ end }}
 
 
    <script>

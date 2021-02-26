@@ -2,12 +2,25 @@
 
 A [hugo](https://gohugo.io/) theme environment for  stand-alone creative code experiments, reducing the learning curve so you can enjoy being in the zone.
 
-Our goal is to integrate, test and play with:
+Our goal to curate best practices (integrating, testing, documenting) to play with:
 
 - processing
 - p5
 - ml5
 - PWA (so it works well on mobile browsers)
+
+## Features
+
+An ever-growing list of conditions and libraries to speed up your creative code: Want text not to be selectable? Want to prevent zoom? ml5? smooth scroll?
+
+Features are per page so you only load what you need, to ensure performance. 
+
+Features keep growing, so make sure to:
+
+1. [View complete documentation](features.md)
+2. [Subscribe to our newsletter](https://tinyletter.com/nonlinear-play/) for updates
+3. [Contact us](<mailto:info@nicholasfrota.com?subject=Nonlinear play feature suggestion>) for suggestions
+
 
 ## Installation
 
@@ -16,7 +29,9 @@ Our goal is to integrate, test and play with:
 1. Install `play` as a theme submodule
 	1. Go to `themes/` folder
 	1. Run `git submodule add https://github.com/nonlinear/play.git play`
-	1. open `config.toml` and change `theme` to `"play"`
+1. Change `config.toml`
+	1. change `theme` to `"play"`
+	1. ensure `baseURL` has proper URL on it
 
 
 ## Activation

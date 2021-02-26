@@ -1,50 +1,64 @@
 # Features
 
-infor here, stand-alone, ensure performance
+An ever-growing list of conditions and libraries to speed up your creative code: Want text not to be selectable? Want to prevent zoom? ml5? smooth scroll?
+
+Features are per page so you only load what you need, to ensure performance. 
 
 ## installation
 
-- ensure it's play
-- on frontmatter, add `features: ` and then whatever feature you want to add.
+- make sure **nonlinear play** is on ([view instructions](https://github.com/nonlinear/play#nonlinear-play))
+- on frontmatter, add `features: ` and then whatever feature you want to add (ie: `features: no-scroll, ml5`, etc)
 
+### `p5`
+install [p5 library](https://p5js.org/) 
 
-### `p5js`
-install p5, p5.dom and p5.sound","stable,update",to separate,
-<!-- ### `style`
+<!-- `style`
 loads main.css,"stable,update",to separate: SASS on JS, -->
+
 ### `no-scroll`
-prevents scroll,stable,,
+
+prevents scroll
+
 ### `no-zoom`
-prevents zoom,stable,,
-### `fullscreen`
-installs screenfull.js,stable,better documentation,
+
+prevents zoom
+
 ### `modernizr`
-installs modernizr and detectizr,"stable,test",,
-### `ml5js`
-installs ml5js,stable,,
+
+installs [modernizr](https://modernizr.com/) and [detectizr](https://github.com/barisaydinoglu/Detectizr#detectizr) libraries
+
+### `ml5`
+
+installs [ml5 library](https://ml5js.org/)
+
 ### `jquery`
-installs jquery,stable,,
-<!-- ### `bootstrap`
+
+installs [jquery](https://jquery.com/)
+
+<!-- `bootstrap`
 "installs bootstrap CSS and JS, plus popper and tooltip/popover activation",stable,requires jquery, -->
-<!-- ### `redirect`
+<!-- `redirect`
 redirects page,stable,page body should be URL and nothing else, -->
-<!-- ### `favicon`
+<!-- `favicon`
 adds favicon for all browsers and devices,"stable,test",, -->
-<!-- ### `open-graph`
+<!-- `open-graph`
 "adds all open-graph features (for facebook ,twitter, etc)","stable,test",automate cover image,
-### `request-motion`
+ `request-motion`
 modal intercept requesting gyroscope permissions,"stable,test",should only appear if browser HAS this function,
-### `header`
-adds blog post header,stable,, -->
+ `header`
+adds blog post header -->
+
 ### `no-text-select`
-prevent text selection (global),"stable,todo",maybe create a non-global version?,
-<!-- ### `smooth-scroll`
+- prevents text selection (globally)
+- future state: create a non-global version?
+
+<!-- `smooth-scroll`
 forces smooth scrolling when internal navigation,test,, -->
-<!-- ### `no-nav`
+<!-- `no-nav`
 removes top browser navigation,test,, -->
-<!-- ### `request-location`
+<!-- `request-location`
 modal intercept requesting location permissions,todo,should only appear if browser HAS this function,
-### `request-camera`
+ `request-camera`
 modal intercept requesting camera permissions,todo,should only appear if browser HAS this function, -->
-<!-- ### `fullbleed`
+<!-- `fullbleed`
 "moves canvas to bg, below HTML","test,todo","it's an either-or situation, specify?", -->
