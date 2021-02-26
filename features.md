@@ -13,8 +13,8 @@ Features are per page so you only load what you need, to ensure performance.
 
 ## Feature list
 
-### `p5`
-install [p5 library](https://p5js.org/) 
+### `p5js`
+install [p5js library](https://p5js.org/) 
 
 <!-- `style`
 loads main.css,"stable,update",to separate: SASS on JS, -->
