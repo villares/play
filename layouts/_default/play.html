@@ -19,7 +19,17 @@
     }
 
 	{{ end }}	
-	
+	{{ if in .Params.features "no-text-select" }}
+	    * {
+     -webkit-touch-callout: none; /* iOS Safari */
+     -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+     -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+            supported by Chrome, Edge, Opera and Firefox */
+          }
+		{{ end }}	
 </style>
 </head>
 <body>
@@ -30,5 +40,35 @@
 	
 {{ .Content }}
 </div>
+<!-- p5.min.js
+detectizr.js
+jquery.min.js
+ml5.min.js
+modernizr.js
+ -->
+
+
+ {{ $jquery := resources.Get "js/jquery.min.js" }}
+<script src="{{ $jquery.Permalink }}"></script>
+
+ {{ $modernizr := resources.Get "js/modernizr.js" }}
+<script src="{{ $modernizr.Permalink }}"></script>
+
+
+   <script>
+   	{{ if in .Params.features "no-zoom" }}
+    document.addEventListener('gesturestart', function (e) {
+      e.preventDefault();
+    });
+    	{{ end }}
+   	{{ if in .Params.features "smooth-scroll" }}
+    	     $('a').click(function(){
+      $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+      }, 500);
+      return false;
+    });
+    	         	{{ end }}
+  </script>
 </body>
 </html>

@@ -38,13 +38,13 @@ modal intercept requesting gyroscope permissions,"stable,test",should only appea
 adds blog post header,stable,, -->
 ### `no-text-select`
 prevent text selection (global),"stable,todo",maybe create a non-global version?,
-### `smooth-scroll`
-forces smooth scrolling when internal navigation,test,,
+<!-- ### `smooth-scroll`
+forces smooth scrolling when internal navigation,test,, -->
 <!-- ### `no-nav`
 removes top browser navigation,test,, -->
 <!-- ### `request-location`
 modal intercept requesting location permissions,todo,should only appear if browser HAS this function,
 ### `request-camera`
 modal intercept requesting camera permissions,todo,should only appear if browser HAS this function, -->
-### `fullbleed`
-"moves canvas to bg, below HTML","test,todo","it's an either-or situation, specify?",
+<!-- ### `fullbleed`
+"moves canvas to bg, below HTML","test,todo","it's an either-or situation, specify?", -->
