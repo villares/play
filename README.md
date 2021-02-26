@@ -9,6 +9,8 @@ Our goal to curate best practices (integrating, testing, documenting) to play wi
 - ml5
 - PWA (so it works well on mobile browsers)
 
+---
+
 ## Features
 
 An ever-growing list of conditions and libraries to speed up your creative code: Want text not to be selectable? Want to prevent zoom? ml5? smooth scroll?
@@ -17,10 +19,11 @@ Features are per page so you only load what you need, to ensure performance.
 
 Features keep growing, so make sure to:
 
-1. [View complete documentation](features.md)
+1. [View complete documentation](features.md#features)
 2. [Subscribe to our newsletter](https://tinyletter.com/nonlinear-play/) for updates
-3. [Contact us](<mailto:info@nicholasfrota.com?subject=nonlinear play feature suggestion>) for suggestions
+3. Contact us for suggestions: [email](mailto:info@nicholasfrota.com?subject=nonlinear play feature suggestion), [twitter](https://mastodon.social/@nonlinear), [mastodon](https://twitter.com/nonlinear)
 
+---
 
 ## Installation
 
@@ -33,10 +36,13 @@ Features keep growing, so make sure to:
 	1. change `theme` to `"play"`
 	1. ensure `baseURL` has proper URL on it
 
+---
 
 ## Activation
 
 Activate it per page, adding to frontmatter: `layout: play`
+
+---
 
 ## Updating
 
@@ -53,6 +59,8 @@ Github generates flat blogs server-side, so submodule breaks because it renames 
 1. force hugo to generate flat blog on `docs/` folder, instead of default `site/` 
 1. add `publishDir = "docs"` on `config.toml`
 1. on github settings, tell githubpages to point to `docs/` folder instead
+
+---
 
 ## 
 

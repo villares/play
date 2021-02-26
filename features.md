@@ -1,13 +1,19 @@
-# Features
+# nonlinear play features
 
 An ever-growing list of conditions and libraries to speed up your creative code: Want text not to be selectable? Want to prevent zoom? ml5? smooth scroll?
 
 Features are per page so you only load what you need, to ensure performance. 
 
+---
+
 ## installation
 
 - make sure **nonlinear play** is on ([view instructions](https://github.com/nonlinear/play#nonlinear-play))
 - on frontmatter, add `features: ` and then whatever feature you want to add (ie: `features: no-scroll, ml5`, etc)
+
+---
+
+## feature list
 
 ### `p5`
 install [p5 library](https://p5js.org/) 
@@ -62,3 +68,10 @@ modal intercept requesting location permissions,todo,should only appear if brows
 modal intercept requesting camera permissions,todo,should only appear if browser HAS this function, -->
 <!-- `fullbleed`
 "moves canvas to bg, below HTML","test,todo","it's an either-or situation, specify?", -->
+
+---
+
+> Features keep growing, so make sure to:
+	1. [View complete documentation](features.md#features)
+	2. [Subscribe to our newsletter](https://tinyletter.com/nonlinear-play/) for updates
+	3. Contact us for suggestions: [email](mailto:info@nicholasfrota.com?subject=nonlinear play feature suggestion), [twitter](https://mastodon.social/@nonlinear), [mastodon](https://twitter.com/nonlinear)
