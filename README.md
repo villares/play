@@ -36,11 +36,7 @@ Features keep growing, so make sure to:
 
 ## Activation
 
-`nonlinear play` works best as a stand-alone, on top of your existing hugo project. It's best to activate it per page, adding to frontmatter:
-
-```
-layout: play
-```
+`nonlinear play` works best as a stand-alone, on top of your existing hugo project. It's best to activate it per page, adding to frontmatter: `layout: play`
 
 ## Updating
 
