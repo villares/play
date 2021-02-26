@@ -50,7 +50,13 @@ Activate it per page, adding to frontmatter: `layout: play`
 1. go to the theme with `cd themes/play`
 1. `git pull`
 
-> [Subscribe to our newsletter](https://tinyletter.com/nonlinear-play/) for updates
+---
+
+## Contact
+
+[Subscribe to our newsletter](https://tinyletter.com/nonlinear-play/) for updates
+
+Contact us for suggestions: [email](mailto:info@nicholasfrota.com?subject=nonlinear play feature suggestion), [twitter](https://mastodon.social/@nonlinear), [mastodon](https://twitter.com/nonlinear)
 
 <!-- ## Troubleshoot: submodule + githubpages
 
