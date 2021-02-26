@@ -9,7 +9,6 @@ Our goal to curate best practices (integrating, testing, documenting) to play wi
 - ml5
 - PWA (so it works well on mobile browsers)
 
----
 
 ## Features
 
@@ -23,7 +22,6 @@ Features keep growing, so make sure to:
 2. [Subscribe to our newsletter](https://tinyletter.com/nonlinear-play/) for updates
 3. Contact us for suggestions: [email](mailto:info@nicholasfrota.com?subject=nonlinear play feature suggestion), [twitter](https://mastodon.social/@nonlinear), [mastodon](https://twitter.com/nonlinear)
 
----
 
 ## Installation
 
@@ -36,13 +34,11 @@ Features keep growing, so make sure to:
 	1. change `theme` to `"play"`
 	1. ensure `baseURL` has proper URL on it
 
----
 
 ## Activation
 
 Activate it per page, adding to frontmatter: `layout: play`
 
----
 
 ## Updating
 
@@ -50,15 +46,8 @@ Activate it per page, adding to frontmatter: `layout: play`
 1. go to the theme with `cd themes/play`
 1. `git pull`
 
----
 
-## Contact
-
-[Subscribe to our newsletter](https://tinyletter.com/nonlinear-play/) for updates
-
-Contact us for suggestions: [email](mailto:info@nicholasfrota.com?subject=nonlinear play feature suggestion), [twitter](https://mastodon.social/@nonlinear), [mastodon](https://twitter.com/nonlinear)
-
-<!-- ## Troubleshoot: submodule + githubpages
+## Troubleshoot: submodule + githubpages
 
 Github generates flat blogs server-side, so submodule breaks because it renames folder with commit. flat blogs are meant to be client-side, so there's a way to prevent github from rebuilding it server-side:
 
@@ -66,14 +55,15 @@ Github generates flat blogs server-side, so submodule breaks because it renames 
 1. add `publishDir = "docs"` on `config.toml`
 1. on github settings, tell githubpages to point to `docs/` folder instead
 
----
 
-## 
+## Build
 
 1. build hugo with `hugo`
-1. push changes -->
+1. push changes
 
-<!-- ## Get informed
 
-- [Subscribe to our newsletter](https://tinyletter.com/play/) for updates
-- [Join our telegram group](https://t.me/joinchat/IZcW2U4HflaCQj1G) for questions, troubleshooting, etc -->
+## Get informed
+
+- [Subscribe to our newsletter](https://tinyletter.com/nonlinear-play/) for updates
+- Contact us for suggestions: [email](mailto:info@nicholasfrota.com?subject=nonlinear play feature suggestion), [twitter](https://twitter.com/nonlinear), [mastodon](https://mastodon.social/@nonlinear)
+- [Join our telegram group](https://t.me/joinchat/IZcW2U4HflaCQj1G) for questions, troubleshooting, etc

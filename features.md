@@ -4,16 +4,14 @@ An ever-growing list of conditions and libraries to speed up your creative code:
 
 Features are per page so you only load what you need, to ensure performance. 
 
----
 
-## installation
+## Installation
 
 - make sure **nonlinear play** is on ([view instructions](https://github.com/nonlinear/play#nonlinear-play))
 - on frontmatter, add `features: ` and then whatever feature you want to add (ie: `features: no-scroll, ml5`, etc)
 
----
 
-## feature list
+## Feature list
 
 ### `p5`
 install [p5 library](https://p5js.org/) 
@@ -69,11 +67,11 @@ modal intercept requesting camera permissions,todo,should only appear if browser
 <!-- `fullbleed`
 "moves canvas to bg, below HTML","test,todo","it's an either-or situation, specify?", -->
 
----
-
-### contact
+## Get informed
 
 Features keep growing, so make sure to:
 
 - [Subscribe to our newsletter](https://tinyletter.com/nonlinear-play/) for updates
-- Contact us for suggestions: [email](mailto:info@nicholasfrota.com?subject=nonlinear play feature suggestion), [twitter](https://mastodon.social/@nonlinear), [mastodon](https://twitter.com/nonlinear)
+- Contact us for suggestions: [email](mailto:info@nicholasfrota.com?subject=nonlinear play feature suggestion), [twitter](https://twitter.com/nonlinear), [mastodon](https://mastodon.social/@nonlinear)
+- [Join our telegram group](https://t.me/joinchat/IZcW2U4HflaCQj1G) for questions, troubleshooting, etc
+
