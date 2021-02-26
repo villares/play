@@ -4,18 +4,31 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{{ .Site.Title }}</title>
+<style>
+	{{ if in .Params.features "no-scroll" }}
+	    html {
+      height  : 100%;
+      overflow: hidden;
+      position: relative;
+    }
+    body {
+      height  : 100%;
+      overflow: auto;
+      position: relative;
+      overflow: hidden;
+    }
 
+	{{ end }}	
+	
+</style>
 </head>
 <body>
 <div class="container">
 
 		<h1>{{ .Title }}!!!!! Play template</h1>
 	
+	
 {{ .Content }}
 </div>
 </body>
 </html>
-
-<ul id="tags">
-
-</ul>
