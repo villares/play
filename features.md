@@ -72,6 +72,7 @@ modal intercept requesting camera permissions,todo,should only appear if browser
 ---
 
 > Features keep growing, so make sure to:
-	1. [View complete documentation](features.md#features)
-	2. [Subscribe to our newsletter](https://tinyletter.com/nonlinear-play/) for updates
-	3. Contact us for suggestions: [email](mailto:info@nicholasfrota.com?subject=nonlinear play feature suggestion), [twitter](https://mastodon.social/@nonlinear), [mastodon](https://twitter.com/nonlinear)
+
+> 1. [View complete documentation](features.md#features)
+> 2. [Subscribe to our newsletter](https://tinyletter.com/nonlinear-play/) for updates
+> 3. Contact us for suggestions: [email](mailto:info@nicholasfrota.com?subject=nonlinear play feature suggestion), [twitter](https://mastodon.social/@nonlinear), [mastodon](https://twitter.com/nonlinear)
