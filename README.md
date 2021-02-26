@@ -19,7 +19,7 @@ Features keep growing, so make sure to:
 
 1. [View complete documentation](features.md)
 2. [Subscribe to our newsletter](https://tinyletter.com/nonlinear-play/) for updates
-3. [Contact us](<mailto:info@nicholasfrota.com?subject=Nonlinear play feature suggestion>) for suggestions
+3. [Contact us](<mailto:info@nicholasfrota.com?subject=nonlinear play feature suggestion>) for suggestions
 
 
 ## Installation
@@ -36,14 +36,15 @@ Features keep growing, so make sure to:
 
 ## Activation
 
-`nonlinear play` works best as a stand-alone, on top of your existing hugo project. It's best to activate it per page, adding to frontmatter: `layout: play`
+Activate it per page, adding to frontmatter: `layout: play`
 
 ## Updating
 
 1. go to your hugo project folder
 1. go to the theme with `cd themes/play`
 1. `git pull`
-1. [Subscribe to our newsletter](https://tinyletter.com/nonlinear-play/) for updates
+
+> [Subscribe to our newsletter](https://tinyletter.com/nonlinear-play/) for updates
 
 <!-- ## Troubleshoot: submodule + githubpages
 
